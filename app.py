@@ -1,8 +1,9 @@
 
 import streamlit as st
 import pandas as pd
-import joblib
 import numpy as np
+import joblib
+
 
 # Load the best pipeline (includes preprocessor and model)
 model = joblib.load('random_forest_model.pkl')
